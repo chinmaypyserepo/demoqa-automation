@@ -1,23 +1,4 @@
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.env
-
-# Virtual environment
 venv/
-.venv/
-
-# Reports
 reports/
-allure-results/
-allure-report/
-
-# OS / IDE
+__pycache__/
 .idea/
-.vscode/
-.DS_Store
-
-# Logs
-*.log

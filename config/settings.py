@@ -1,2 +1,4 @@
 UI_BASE_URL = "https://demoqa.com"
-API_BASE_URL = "https://demoqa.com/BookStore/v1"
+
+USERNAME = "testuser_demoqa"
+PASSWORD = "Password@123"
