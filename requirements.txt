@@ -1,0 +1,9 @@
+pytest
+selenium
+webdriver-manager
+requests
+allure-pytest
+pytest-xdist
+pytest-rerunfailures
+openpyxl
+jsonschema
