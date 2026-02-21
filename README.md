@@ -1,11 +1,11 @@
-# DemoQA Automation Framework
+DemoQA Automation Framework
 
 This is a Python-based automation framework built using Selenium, Pytest, and Requests.  
 It supports UI and API automation with data-driven testing, cross-browser execution, headless mode, and parallel execution.
 
 ---
 
-## 🚀 Tech Stack
+Tech Stack
 
 - Python
 - Pytest
@@ -18,7 +18,7 @@ It supports UI and API automation with data-driven testing, cross-browser execut
 
 ---
 
-## 📂 Project Structure
+Project Structure
 
 demoqa-automation/
 │
@@ -35,7 +35,7 @@ demoqa-automation/
 
 ---
 
-## 🏗 Framework Architecture
+Framework Architecture
 
 ```
                     ┌──────────────────────┐
@@ -77,7 +77,7 @@ demoqa-automation/
 
 ---
 
-## 🔄 Execution Flow
+Execution Flow
 
 1. Pytest command is triggered.
 2. `pytest.ini` loads markers and configuration.
@@ -91,20 +91,20 @@ demoqa-automation/
 
 ---
 
-## ▶️ How to Run Tests
+How to Run Tests
 
-### Run All Tests
+Run All Tests
 pytest
 
-### Run Only UI Tests
+Run Only UI Tests
 pytest -m ui
 
-### Run Only API Tests
+Run Only API Tests
 pytest -m api
 
 ---
 
-## 🌍 Cross-Browser Execution
+Cross-Browser Execution
 
 Chrome:
 pytest -m ui --browser=chrome
@@ -117,40 +117,40 @@ pytest -m ui --browser=edge
 
 ---
 
-## 🖥 Headless Mode
+Headless Mode
 
 pytest -m ui --browser=chrome --headless
 
 ---
 
-## ⚡ Parallel Execution
+Parallel Execution
 
 pytest -n auto
 
 ---
 
-## 🔁 Retry Failed Tests
+Retry Failed Tests
 
 pytest --reruns 2
 
 ---
 
-## 📊 Generate HTML Report
+Generate HTML Report
 
 pytest --html=reports/report.html --self-contained-html
 
 ---
 
-## 📈 Allure Report
+Allure Report
 
 pytest --alluredir=reports/allure-results  
 allure serve reports/allure-results
 
 ---
 
-## 🖥 Shell Scripts
+Shell Scripts
 
-### run_ui.sh
+run_ui.sh
 
 ```bash
 #!/bin/bash
@@ -164,7 +164,7 @@ sh run_ui.sh
 
 ---
 
-### run_api.sh
+run_api.sh
 
 ```bash
 #!/bin/bash
@@ -173,7 +173,7 @@ pytest -m api -n auto --reruns 2 --html=reports/api_report.html --self-contained
 
 ---
 
-### run_all.sh
+run_all.sh
 
 ```bash
 #!/bin/bash
@@ -183,19 +183,19 @@ allure serve reports/allure-results
 
 ---
 
-## 📦 Install Dependencies
+Install Dependencies
 
 pip install -r requirements.txt
 
 ---
 
-## 🧪 Run Failed Tests Only
+Run Failed Tests Only
 
 pytest --lf
 
 ---
 
-## 🏁 CI/CD Ready
+CI/CD Ready
 
 Framework supports:
 
@@ -214,7 +214,7 @@ It can be integrated with:
 
 ---
 
-## 👨‍💻 Author
+Author
 
 Chinmay Panda  
 Automation Test Engineer
